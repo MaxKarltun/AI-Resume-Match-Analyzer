@@ -12,6 +12,10 @@
   <a href="https://plotly.com/python/"><img src="https://img.shields.io/badge/Plotly-7.1.0-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly 7.1.0"></a>
 </p>
 
+<p align="center">
+  <a href="https://ai-resume-match-analyzer-zvqdxgegdxfxzrrwje6ymg.streamlit.app/">🚀 Try the live app</a>
+</p>
+
 > **Transparent by design:** matching uses a small, explainable skill vocabulary and text normalization - not an LLM or trained AI model. No API key or paid AI service is required. Scores represent supported-skill coverage, not hiring likelihood or ATS compatibility.
 
 ## Contents
