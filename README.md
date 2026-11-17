@@ -9,13 +9,20 @@ lightweight NLP text normalization, not an LLM or a trained AI model. No API key
 or paid AI service is required. Scores measure supported skill coverage, not
 hiring likelihood or compatibility with every applicant tracking system.
 
-## Dashboard preview
+## Before and after analysis
 
-![Match results with Data Engineering, ETL, and SQL detected](screenshots/dashboard.png)
+**Before:** Review the uploaded resume text and enter the job description, then
+select **Analyze Match**.
 
-This earlier results preview shows a three-skill match without any personal
-resume text. The current version also includes the comparison chart,
-Resume Health card, and improvement plan described below.
+![Before analysis: uploaded resume and job description ready to analyze](screenshots/before-analysis.png)
+
+**After:** The existing results preview shows all three detected skills matched
+and no missing keywords. It uses no personal resume text.
+
+![After analysis: a 100% match with Data Engineering, ETL, and SQL detected](screenshots/dashboard.png)
+
+The dashboard also includes the comparison chart, Resume Health card, and
+improvement plan described below. For more detail, see [Using the app](#using-the-app).
 
 ## Features
 
