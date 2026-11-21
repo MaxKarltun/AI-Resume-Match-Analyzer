@@ -1,21 +1,44 @@
 # AI Resume Match Analyzer
 
-A polished, interactive resume-to-job comparison dashboard built with Python and
-Streamlit. Paste your resume or upload a document, compare it with a job
-description, and turn keyword gaps into an actionable improvement plan.
+<p align="center">
+  <strong>An interactive resume-to-job comparison dashboard</strong><br>
+  Find supported skill matches, uncover keyword gaps, and get practical ideas to improve your resume.
+</p>
 
-**Transparent by design:** this version uses rule-based keyword matching and
-lightweight NLP text normalization, not an LLM or a trained AI model. No API key
-or paid AI service is required. Scores measure supported skill coverage, not
-hiring likelihood or compatibility with every applicant tracking system.
+<p align="center">
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.14.3-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.14.3"></a>
+  <a href="https://streamlit.io/"><img src="https://img.shields.io/badge/Streamlit-1.67.0-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit 1.67.0"></a>
+  <a href="https://pandas.pydata.org/"><img src="https://img.shields.io/badge/Pandas-3.1.1-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas 3.1.1"></a>
+  <a href="https://plotly.com/python/"><img src="https://img.shields.io/badge/Plotly-7.1.0-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly 7.1.0"></a>
+</p>
 
-## Dashboard preview
+<p align="center">
+  <a href="https://ai-resume-match-analyzer-zvqdxgegdxfxzrrwje6ymg.streamlit.app/">🚀 Try the live app</a>
+</p>
 
-![Match results with Data Engineering, ETL, and SQL detected](screenshots/dashboard.png)
+> **Transparent by design:** matching uses a small, explainable skill vocabulary and text normalization - not an LLM or trained AI model. No API key or paid AI service is required. Scores represent supported-skill coverage, not hiring likelihood or ATS compatibility.
 
-This earlier results preview shows a three-skill match without any personal
-resume text. The current version also includes the comparison chart,
-Resume Health card, and improvement plan described below.
+## Contents
+
+- [Before and after](#before-and-after)
+- [Features](#features)
+- [How scoring works](#how-scoring-works)
+- [Installation](#installation-windows-and-vs-code)
+- [Using the app](#using-the-app)
+- [Document limitations and privacy](#document-limitations-and-privacy)
+- [Run tests](#run-tests)
+- [Technologies](#technologies)
+
+## Before and after
+
+Review the uploaded resume text, enter the job description, and select **Analyze Match**. The result below shows a sample 100% match for three detected skills, with no missing keywords.
+
+<p align="center">
+  <img src="screenshots/before-analysis.png" alt="Before analysis: uploaded resume and job description ready to analyze" width="49%">
+  <img src="screenshots/dashboard.png" alt="After analysis: a 100% match with Data Engineering, ETL, and SQL detected" width="49%">
+</p>
+
+The results screenshot uses sample content. The dashboard also includes a comparison chart, Resume Health card, and improvement plan.
 
 ## Features
 
@@ -189,6 +212,7 @@ AI-Resume-Match-Analyzer/
 |-- .streamlit/
 |   `-- config.toml
 |-- screenshots/
+|   |-- before-analysis.png
 |   `-- dashboard.png
 `-- tests/
     |-- test_resume_analysis.py
@@ -207,4 +231,4 @@ AI-Resume-Match-Analyzer/
 
 ## Resume bullet
 
-Built an AI-powered Resume Match Analyzer using Python, Streamlit, and NLP techniques to evaluate resume alignment with job descriptions, generate keyword-match scores, identify missing skills, and provide actionable career recommendations through an interactive dashboard.
+Built an interactive resume-to-job match dashboard using Python and Streamlit, with explainable skill coverage scoring, missing-keyword detection, and practical improvement recommendations.
