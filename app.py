@@ -16,9 +16,16 @@ st.markdown(
     <style>
     .stApp {
         color: #17121e;
-        background:
-            radial-gradient(ellipse at 90% 0%, #e6d6ff 0%, transparent 52%),
-            linear-gradient(145deg, #ffffff 0%, #f2f1f5 55%, #dedde5 100%);
+        background: linear-gradient(
+            115deg,
+            #ffabab 0%,
+            #ffc178 17%,
+            #ffed80 33%,
+            #9beaa8 50%,
+            #8fdcff 67%,
+            #c5b4ff 83%,
+            #ffb3e4 100%
+        );
         font-family: "Segoe UI", Arial, sans-serif;
     }
 

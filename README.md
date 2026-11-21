@@ -30,8 +30,8 @@ Resume Health card, and improvement plan described below.
   explanation.
 - **Improvement plan:** skill-gap recommendations and a check for quantified
   impact, with reminders never to invent experience.
-- **Premium interface:** white and purple colors, black trim, soft gray
-  gradients, readable typography, responsive columns, hover effects, and metric
+- **Premium interface:** a rainbow gradient background, white and purple cards,
+  black trim, readable typography, responsive columns, hover effects, and metric
   entrance animations that respect reduced-motion preferences.
 - **Automated tests:** document parsing, skill detection, health thresholds,
   recommendations, and rendered chart data.
